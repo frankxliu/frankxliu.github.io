@@ -16,7 +16,7 @@ body{
 }
 
 a{
-   color:inherit; 
+   color:#2084F1; 
 }
 a:hover{
     text-decoration:none;
@@ -40,7 +40,7 @@ a:hover{
     padding-top: 10px;
 }
 
-#content span{
+span{
     color:#2084F1;
 }
 
