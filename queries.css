@@ -18,8 +18,13 @@
 }
 
 @media (min-width: 576px) {
+    #content{
+        height: 107vh;
+    }
+
     #footer{
-        padding-top: 50vh;
+        height: 80vh;
+        padding-top: 20vh;
     }
 }
 
@@ -27,28 +32,49 @@
     #header{
         padding-top: 20vh;
     }
+
+    #arrow1{
+        margin-top: 40%;
+    }
+
     #content{
+        height: 123vh;
         padding-top: 3vh;
     }
     
     #arrow2{
-        margin-top: 8%;
+        margin-top: 5%;
     }
 
     #footer{
-        height: 40vh;
-        padding-top: 0;
+        height: 80vh;
+        padding-top: 30vh;
     }
 }
 
 @media (min-width: 992px) {
     
+    #header{
+        padding-top:30vh;
+    }
+
     #arrow1{
-        margin-top: 20%;
+        margin-top: 30%;
+    }
+
+    #arrow2{
+        margin-top: 12%;
     }
 
     #footer{
-        padding-top: 17vh;
+        padding-top: 30vh;
         height: 80vh;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #arrow2{
+        margin-top: 23%;
     }
 }
