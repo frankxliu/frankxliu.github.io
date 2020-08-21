@@ -62,13 +62,15 @@
 
 
         <script type="text/javascript">
-            $("#a1").click(function(){
+        
+            document.getElementById("a1").onclick = function(){
                 document.getElementById('content').scrollIntoView(true);
-            });
+            }
 
-            $("#a2").click(function(){
+            document.getElementById("a2").onclick = function(){
                 document.getElementById('footer').scrollIntoView(true);
-            });
+            }
+
         </script>
 
 
