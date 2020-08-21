@@ -1,0 +1,54 @@
+@media (max-width: 575.98px){
+    #header{
+        padding-top:10vh;
+    }
+
+    #arrow1{
+        margin-top: 10vh;
+    }
+
+    #content{
+        height: 210vh;   
+    }
+
+    #footer{
+        height: 80vh;
+        padding-top: 20vh;
+    }
+}
+
+@media (min-width: 576px) {
+    #footer{
+        padding-top: 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    #header{
+        padding-top: 20vh;
+    }
+    #content{
+        padding-top: 3vh;
+    }
+    
+    #arrow2{
+        margin-top: 8%;
+    }
+
+    #footer{
+        height: 40vh;
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    #arrow1{
+        margin-top: 20%;
+    }
+
+    #footer{
+        padding-top: 17vh;
+        height: 80vh;
+    }
+}
