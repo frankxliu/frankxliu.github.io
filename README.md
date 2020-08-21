@@ -1,2 +1,1 @@
-# frankxliu.github.io
-Personal Portfolio v1
+# Personal Portfolio v1
