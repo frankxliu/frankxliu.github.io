@@ -1,6 +1,6 @@
 @media (max-width: 575.98px){
     #header{
-        padding-top:10vh;
+        padding-top:18vh;
     }
 
     #arrow1{
@@ -8,7 +8,7 @@
     }
 
     #content{
-        height: 210vh;   
+        height: auto;   
     }
 
     #footer{
@@ -18,8 +18,17 @@
 }
 
 @media (min-width: 576px) {
+    #header{
+        height: 100vh;
+        padding-top: 20vh;
+    }
+
+    #arrow1{
+        margin-top: 10vh;
+    }
+
     #content{
-        height: 107vh;
+        height: auto;
     }
 
     #footer{
@@ -30,20 +39,18 @@
 
 @media (min-width: 768px) {
     #header{
-        padding-top: 20vh;
+        height: auto;
+        padding-top: 10vh;
     }
 
-    #arrow1{
-        margin-top: 40%;
-    }
 
     #content{
-        height: 123vh;
+        height: auto;
         padding-top: 3vh;
     }
     
     #arrow2{
-        margin-top: 5%;
+        margin-top: 5vh;
     }
 
     #footer{
@@ -55,15 +62,20 @@
 @media (min-width: 992px) {
     
     #header{
+        height: 100vh;
         padding-top:30vh;
     }
 
     #arrow1{
-        margin-top: 30%;
+        margin-top: 13vh;
+    }
+
+    #content{
+        height: auto;
     }
 
     #arrow2{
-        margin-top: 12%;
+        margin-top: 10vh;
     }
 
     #footer{
@@ -74,8 +86,4 @@
 
 @media (min-width: 1200px) {
 
-    #arrow2{
-        margin-top: 23%;
-    }
-    
 }

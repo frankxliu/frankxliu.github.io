@@ -16,7 +16,7 @@ body{
 }
 
 a{
-    color:rgb(32, 132, 241); 
+   color:#2084F1; 
 }
 a:hover{
     text-decoration:none;
@@ -41,7 +41,7 @@ a:hover{
 }
 
 span{
-    color:rgb(32, 132, 241);
+    color:#2084F1;
 }
 
 #footer{
@@ -54,7 +54,7 @@ span{
 .arrow{
     position: relative;
     margin-left:50%;
-    color:rgb(32, 132, 241);
+    color: #2084F1;
     cursor: pointer;
 }
 
