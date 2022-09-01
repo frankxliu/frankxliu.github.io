@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    background-color: #FFE9E6;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0 };
+    100% { opacity: 1 };
+}
+
+.section {
+    height: 100vh;
+    color: black;
+}
+
+.content {
+    padding: 5% 0 5% 0;
+}
+
+.intro .greet {
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.intro .name {
+    line-height: 1;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation-name: fadeInUnderline;
+    animation-duration: 7s;
+    text-decoration: underline #B47F75;
+}
+
+@keyframes fadeInUnderline {
+    0% { text-decoration: underline rgba(0, 0, 0, 0) };
+
+    100% { text-decoration: underline #B47F75 };
+}
+
+.status {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.9rem;
+}
+
+.status .circle {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #6BC165;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+    transform: scale(1);
+    animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(107, 193, 101, 0.7);
+    };
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(107, 193, 101, 0);
+    };
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(107, 193, 101, 0);
+    };
+}
+
+.intro .desc {
+    line-height: normal;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.cv-text {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: gray;
+}
+
+.resume {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #B47F75;
+    text-decoration: underline #B47F75 2px;
+}
+
+.resume:hover {
+    color: inherit;
+}
+
+svg {
+    fill: #B47F75;
+    transition: .3s;
+}
+
+svg:hover {
+    fill: #E19C90;
+}
